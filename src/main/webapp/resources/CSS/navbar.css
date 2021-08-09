@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body {
+	margin: 0;
+	font-family: 'Impact', fantasy;
+}
+
+.nav-items {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #080b3b;
+	position: fixed;
+	top: 0;
+	width: 100%;
+}
+
+.nav-item {
+	float: left;
+    display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+    margin-left: 20px;
+	text-decoration: none;
+}
+
+.nav-item:hover{
+    cursor: pointer;
+    background: #2e5f00;
+}
